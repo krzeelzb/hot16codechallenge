@@ -1,0 +1,23 @@
+{
+  "name": "hot16codechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/krzeelzb/hot16codechallenge.git"
+  },
+  "author": "Ela Krzeczek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krzeelzb/hot16codechallenge/issues"
+  },
+  "homepage": "https://github.com/krzeelzb/hot16codechallenge#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
