@@ -6,12 +6,12 @@ app.get("/", (req, res) => {
     axios
       .get("https://dog.ceo/api/breeds/image/random")
       .then(response => {
-        let html = `<html><body></body><img src='${response.data.message}/>'</body></html>`;
+        let html = `<html><body></body><img src='${response.data.message}'/></body></html>`;
         res.send(html);
       })
       .catch(err => res.send(err));
   } catch (err) {
-    console.error("GG", err);
+    console.error("error", err);
   }
 });
 app.listen(3000);
